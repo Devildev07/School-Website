@@ -1,0 +1,30 @@
+:root {
+  /* colors */
+  --primary-red: #b02a25;
+  --primary-grey: #333333;
+  --black: #000;
+  --white: #fff;
+  --dark-grey: #2d2d2d;
+  --light-blue: #e7efee;
+  --teal: #4bbeb5;
+
+  /* fonts */
+  font-family: Poppins !important;
+
+  /* font-size */
+  --font-16pt: 1rem;
+
+  line-height: 1.5;
+}
+
+* {
+  font-family: Poppins !important;
+}
+
+.poppins {
+  font-family: Poppins;
+}
+
+.txt-green {
+  color: var(--teal) !important;
+}

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website Demo</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- bootstrap icons link -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/scss/main.scss" />
+  </head>
+  <body>
+    <header class="poppins">
+      <div class="top-bar mb-1">
+        <p>
+          We are proposed senior secondary school affiliated with CBSE Board,
+          the classes are running from Pre School onward.
+        </p>
+      </div>
+      <!-- nav-bar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid flex-column p-0">
+          <div class="head-bar container">
+            <div class="box-1 col-lg-8 flex-grow-1">
+              <div class="col-lg-4 col-md-12 col-sm-12 logo-box">
+                <img
+                  src="./assets/images/logo-1.png"
+                  alt="school-logo"
+                  srcset=""
+                />
+              </div>
+              <div
+                class="col-lg-8 col-md-12 col-sm-12 w-auto poppins title-box"
+              >
+                <h1 class="text-center fs-2">ABC International School</h1>
+                <p class="text-center">
+                  <span>HIGHER</span>
+                  <span>STRONGER</span>
+                  <span>BRIGHTER</span>
+                </p>
+              </div>
+            </div>
+            <div class="box-2 col-lg-4 flex-grow-1 align-items-lg-end">
+              <div class="login-box d-flex gap-sm-5 w-auto">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >STUDENT LOGIN</a
+                >
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >PARENT LOGIN</a
+                >
+              </div>
+              <button class="py-2 px-3 rounded-2">
+                <a href="http://">Admission</a>
+              </button>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler m-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="nav-bar collapse navbar-collapse w-100 mt-2"
+            id="navbarText"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-2 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Academics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- row-1 carousal -->
+    <div id="carouselExampleCaptions" class="carousel slide row-1">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/images/slider-img-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption col-md-6 d-block">
+            <h5>Providing Best Education For Brighter future</h5>
+            <p>
+              Per sed, mattis. Integer viverra euismod maecenas incidunt,
+              phasellus consequatur aliquam nihil temporibus in deserunt
+              convallis. Inceptos per consectetur
+            </p>
+            <button class="py-2 px-3 rounded-2">
+              <a href="#">Learn More</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/slider-img-2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption col-md-6 d-block">
+            <h5>Providing Best Education For Brighter future</h5>
+            <p>
+              Per sed, mattis. Integer viverra euismod maecenas incidunt,
+              phasellus consequatur aliquam nihil temporibus in deserunt
+              convallis. Inceptos per consectetur
+            </p>
+            <button class="py-2 px-3 rounded-2">
+              <a href="http://">Learn More</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/slider-img-3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption col-md-6 d-block">
+            <h5>Providing Best Education For Brighter future</h5>
+            <p>
+              Per sed, mattis. Integer viverra euismod maecenas incidunt,
+              phasellus consequatur aliquam nihil temporibus in deserunt
+              convallis. Inceptos per consectetur .
+            </p>
+            <button class="py-2 px-3 rounded-2">
+              <a href="http://">Learn More</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="container px-4">
+      <!-- row-2 -->
+      <div class="row-2 d-flex flex-wrap flex-row-reverse gap-5 py-4">
+        <div class="notice-box text-light">
+          <h3 class="p-3">NOTICE BOARD</h3>
+          <ul class="list-group p-3">
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Class X Result Highlights 2022-2023
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Class XII Result Highlights 2022-2023
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Media Coverage
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Facilities
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Gallery
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Admission Criteria
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Fee Structure
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Address & Contact
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Nearby Schools
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Address & Contact
+              </a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="#" target="_blank" rel="noopener noreferrer"> About </a>
+            </li>
+          </ul>
+        </div>
+        <div class="content-box">
+          <div class="text-box">
+            <h3 class="fs-1 mb-3">
+              <strong>
+                Welcome to
+                <strong class="text-danger">ABC</strong> International School
+              </strong>
+            </h3>
+            <p class="">
+              " The life, each Of us lives, is the life within the limits Of our
+              own thinking. TO have life more abun- dant, we must think in the
+              limitless terms of abundance."
+            </p>
+            <p class="">
+              Welcome to SIS situated at the convenient Mukhmelpur Road passing
+              through Jindpur opposite MCO primary school.
+            </p>
+          </div>
+          <div class="d-flex flex-wrap gap-5 mt-5">
+            <!-- <div class="img-box"></div>
+          <div class="img-box"></div> -->
+            <figure class="figure">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                alt=""
+                class="figure-img img-fluid rounded-4"
+              />
+
+              <p>
+                we provide activities, project work presenta— tions, and
+                educational trips to enhance Stu- dents' mental, Physical and
+                spiritual develop-
+              </p>
+            </figure>
+            <figure class="figure">
+              <h3>Why Students Choose Us for Gaining Knowledge !</h3>
+              <p>
+                Quite simply, what makes ABC special is the care and devotion
+                that all our educators bring to the table. All our educators are
+                trained and skilled to recognize each child as a unique
+              </p>
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                alt=""
+                class="figure-img img-fluid rounded-4"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- row-3 -->
+      <div class="row-3 py-4">
+        <div class="content-box">
+          <div class="d-flex gap-5 flex-wrap">
+            <figure class="figure">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                alt=""
+                class="figure-img img-fluid rounded-4"
+              />
+              <div class="txt-btn-box">
+                <h3>Principal's Message</h3>
+                <p>
+                  "The life, each Of us lives, is the life within the limits Of
+                  our own thinking. To have life more abundant, we must think in
+                  the limit- less terms of abundance"
+                </p>
+                <button class="py-2 px-3 rounded mb-3">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </figure>
+            <figure class="figure">
+              <div class="txt-btn-box">
+                <h3>Director's Message</h3>
+                <p>
+                  The aim of education is to enlighten one's mind so that one
+                  could have a broad mind as well as a broad outlook. Education
+                  presents the truth of life in a beautiful way for the well
+                  being of human race
+                </p>
+                <button class="py-2 px-3 rounded mb-3">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                alt=""
+                class="figure-img img-fluid rounded-4"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- row-4 -->
+    <section class="container-fluid row-4">
+      <div class="p-4 pb-2">
+        <h3 class="text-center text-danger">Ourself</h3>
+        <div class="img-txt-box flex-wrap d-flex gap-3 mt-4">
+          <figure class="figure img-box rounded-2">
+            <img
+              src="./assets/images/slider-img-1.jpg"
+              alt=""
+              class="figure-img img-fluid"
+            />
+            <div class="btn-box">
+              <a href="">
+                <p>Activites</p>
+                <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </figure>
+          <figure class="figure img-box rounded-2">
+            <img
+              src="./assets/images/slider-img-1.jpg"
+              alt=""
+              class="figure-img img-fluid"
+            />
+            <div class="btn-box">
+              <a href="#">
+                <p>Events & Celebration</p>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </figure>
+          <figure class="figure img-box rounded-2">
+            <img
+              src="./assets/images/slider-img-1.jpg"
+              alt=""
+              class="figure-img img-fluid"
+            />
+            <div class="btn-box">
+              <a href="#">
+                <p>Academics</p>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </figure>
+          <figure class="figure img-box rounded-2">
+            <img
+              src="./assets/images/slider-img-1.jpg"
+              alt=""
+              class="figure-img img-fluid"
+            />
+            <div class="btn-box">
+              <a href="#">
+                <p>Gallery</p>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- row-5 -->
+    <section class="row-5 container p-4">
+      <div class="head-box d-flex justify-content-center position-relative">
+        <h3 class="text-center">School Campus</h3>
+        <a href="#" class="btn btn-outline-danger">About Campus</a>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper mt-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">FOOTBALL GROUND</h5>
+                <p class="card-text">
+                  Football is a family of team sports that in- volve, to varying
+                  degrees, kicking a ball with
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">ATHLETIC TRACK</h5>
+                <p class="card-text">
+                  Track and field is a sport which includes athletic contests
+                  established on the skills of
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-bg-dark">
+              <img
+                src="./assets/images/slider-img-1.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title txt-green">VOLLEYBALL GROUND</h5>
+                <p class="card-text">
+                  Volleyball is a team sport in which two teams of six players
+                  are separated by a net.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="bi bi-arrow-left"></i>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <section class="foot-top bg-danger py-4">
+        <div
+          class="container d-flex flex-wrap text-white gap-2 justify-content-between"
+        >
+          <div class="box-1 flex-grow-1 flex-fill">
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"> Home </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Academics
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Admission
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Events & Celebration
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Activites
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Gallery
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="box-2 flex-grow-1 flex-fill">
+            <h3>Address</h3>
+            <p>123, Xyz Road , ABC International School</p>
+          </div>
+          <div class="box-3 flex-grow-1 flex-fill">
+            <h3>Enquiry for admission</h3>
+            <p>
+              ABC International School<br />
+              Tel.0123456789 <br />
+              E-mail : abc@gmail.com
+            </p>
+            <p class="d-flex gap-2 fs-4 mb-0">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-twitter"></i>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="foot-bottom bg-dark">
+        <div
+          class="container d-flex align-items-center p-4 px-2 text-light justify-content-between flex-md-row flex-column"
+        >
+          <p class="mb-0">2023 WebDesign</p>
+          <p class="mb-0">
+            Designed By <strong class="text-danger"> Dewanshu</strong>
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> -->
+    <!-- swiper -->
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
