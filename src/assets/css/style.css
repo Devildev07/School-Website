@@ -480,8 +480,8 @@
     margin-top: 0rem;
   }
 
-  .row-5 .carousel-item {
+  /* .row-5 .carousel-item {
     flex: 0 0 calc(100%/2);
     height: auto;
-  }
+  } */
 }
